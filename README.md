@@ -13,7 +13,7 @@ Projeto para testar o conhecimento básico em Java Quarkus.
 
 ## Subir projeto
 - Modo normal: `./mvnw quarkus:dev`
-- Modo debug: `./mvnw quarkus:dev -Dagentlib:jdwp=transport=dt_socket,server=y,address=5005`
+- Modo debug: `./mvnw quarkus:dev -Ddebug=5005`
 
 
 ## Objetivo
